@@ -1,0 +1,77 @@
+#contact{
+ margin: 6rem 0 0;
+ padding: 5rem 0 6.5rem;
+ background-color: rgba(6, 39, 100, .95);
+ color: #fff;
+ text-align: center;
+ font-weight: bold;
+}
+.contact-section{
+ margin-bottom: 1rem;
+}
+.contact-h1{
+ font-family: cursive;
+ font-size: 3.5rem;
+ text-shadow: -1px 1px 1px #fff;
+ margin: 0 0 1rem;
+}
+.contact-h2{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 2rem;
+ color: rgba(255,255,0,1);
+ font-stretch: expanded;
+ text-shadow: 1px 1px 1px yellow;
+ margin-bottom: 5rem;
+}
+.inner{
+ border: solid #fff;
+ border-width: 2px 1px 2px 1px;
+ border-radius: 5px;
+ height: 100%;
+ padding: 2rem .8rem;
+}
+.contact-h3{
+ color: yellow;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 1.1rem;
+}
+.contact-para{
+ font-size: .8rem;
+}
+.contact-para a{
+ color:white;
+}
+.contact-icon {
+ stroke: cyan;
+ stroke-width: 15;
+ stroke-opacity: .7;
+ color: rgba(6, 39, 100, .95);
+ transform: scale(3.4);
+ margin-bottom: 2rem;
+}
+
+
+/* SendMessage section */
+#send-message{
+ background-color: rgba(6, 39, 100, .8);
+ padding: 3.5rem;
+}
+.form-control{
+ padding: 1rem;
+}
+.send-btn-wrapper{
+ text-align: center;
+}
+.send-btn{
+ border-radius: 3.5rem;
+ margin: 0 auto;
+ padding: .8rem 3.5rem;
+ font-weight: bold;
+}
+.send-icon{
+ transform: scale(1);
+ margin: 0 .2rem 0;
+ color: #fff;
+ stroke: #000;
+ stroke-width: 40;
+}

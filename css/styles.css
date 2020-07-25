@@ -1,0 +1,279 @@
+/* T 	R 	B 	L */
+#header{
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index: 1;
+	background-color: white;
+}
+.navbar{
+	padding: 1.5rem 1rem .5rem 0 !important; 
+	z-index: 10;
+	background-color: white;
+}
+
+.nav-item{
+margin: 0;
+padding: 0 .8rem;
+}
+
+.nav-link{
+font-family: cursive;
+font-weight: bold;
+color: black;
+}
+
+.icon{
+color: black;
+}
+
+.login-btn{
+background-color: yellow;
+padding: .5rem .8rem;
+margin-left: .2rem;
+border: .09rem solid black;
+font-family: cursive;
+font-weight: bold;
+font-size: 90%;
+}
+.login-btn a{
+	color: black;
+}
+a{
+	color: #000 !important;
+	text-decoration: none !important;
+}
+/* Body Section Styling */
+#body{
+	position: relative;
+	top: 5.5rem;
+	z-index: -1;
+	background-image: url("../img/police_ceremonial_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 3rem 0  10rem 0;
+	color: white;
+	font-weight: bold;
+}
+.animation{
+	height: 30px;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-family: cursive;
+	color: yellow;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+.animation p{
+	position: relative;
+	-webkit-animation-name: animation; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+	animation-name: animation;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes animation {
+	0% {left:0%; top:0px;}
+	100% {left:100%; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes animation {
+		0%   {left:0%; top:0px;}
+	100% {left:100%; top:0px;}
+}
+.signup{
+	margin: 2rem auto 0;
+	padding-bottom: 2rem;
+	padding-top: 1rem;
+	color: black;
+	background-color: white;
+	border-radius: .5rem;
+	box-shadow: 2px 2px 20px red;
+	text-align: center;
+}
+.signup h2{
+	margin-top: 1rem;
+}
+.signup-input{
+	width: 100%;
+	margin: .4rem .3rem;
+	padding: 1rem .5rem;
+	border-radius: .5rem;
+	border: 1px solid rgba(0,0,0,.5);
+	box-shadow: 1px 1px 1px black; 
+}
+
+.btn-create{
+	width: 80%;
+	color: black;
+	background-color: yellow;
+	border-radius: 1.5rem;
+	margin-top: .5rem;
+}
+.captcha{
+	background-image: url("../img/captcha.jpg");
+	background-repeat: repeat;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 2rem;
+	color: maroon;
+	padding-left: .9rem;
+}
+.recruiting{
+	margin-top: 3rem;
+}
+.recruiting-icon{
+	position: absolute;
+	top: 5rem;
+	left: 2rem;
+	font-family: cursive;
+	font-size: 2rem;
+	color: white;
+}
+.attention{
+	position: relative;
+}
+.attention-icon{
+	position: absolute;
+	top: 1rem;
+	left: .5rem;
+	font-family: cursive;
+	font-size: 2rem;
+	color: white;
+}
+.attention-text{
+	margin-top: 1rem;
+}
+.explanation-right{
+	margin-left: 4rem;
+}
+.h2-heading{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 2rem;
+	padding: .5rem;
+}
+.paragraph{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 1.3rem;
+	line-height: 1.8;
+}
+
+#guidelines{
+	padding: 4rem 0 1.5rem;
+	background-color: rgb(6, 39, 100);
+	color: #fff;
+}
+.guidelines-h2{
+	font-size: 2rem;
+}
+ul{
+	list-style-type: square;
+}
+li{
+	padding-bottom: .2rem;
+}
+
+#info{
+	background-color: rgba(0,0,0,.2);
+	padding: 3.5rem 0;
+}
+.info-h3{
+	font-size: 1rem;
+	font-family: cursive;
+	font-weight: bold;
+}
+
+.info-col{
+	border-right: 2px solid #fff;
+	text-align: center;
+	margin: auto 0 auto 0;
+}
+.info-icon{
+	color: maroon;
+	margin: 1.2rem 0;
+}
+.info-para{
+	font-size: .8rem;
+	font-weight: bold;
+	font-family: cursive;
+}
+.info-col:last-child{
+	border-right: none;
+}
+a{
+	color: maroon;
+}
+.social-media{
+	margin: auto 0 auto 0;
+}
+#footer{
+	padding: 2rem;
+	background-color: yellow;
+	font-size: .8rem;
+	font-weight: bold;
+	font-family: cursive;
+	text-align: center;
+}
+
+
+@media (max-width: 700px){
+	.container{
+		width: 100%;
+		margin: .2rem;
+	}
+	.brand-img{
+		width: 200px !important;
+		height: 50% !important;
+	}
+	.animation{
+		width: 80%;
+	}
+	.signup{
+		width: 80%;
+		margin: 1rem auto;
+		padding-top: .5rem;
+	}
+	.signup-input{
+		padding: .5rem;
+	}
+	.tel{
+		border-right: none;
+	}
+	.btn-create{
+		width: 80%;
+		color: black;
+		background-color: yellow;
+		border-radius: 1.5rem;
+		margin-top: .5rem;
+		margin-bottom: 1rem;
+	}
+	.h2-heading{
+		font-size: 1.5rem;
+		padding: .3rem;
+	}
+	.guidelines-h2{
+		font-size: 1.5rem;
+	}
+	.paragraph{
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+}
+@media (max-width: 575px){
+	.navbar{
+		padding: 0;
+	}
+	.info-col{
+		border-right: none;
+		border-bottom: 2px solid #fff;
+		padding: 1rem;
+	}
+	.info-col:last-child{
+		border: none;
+	}
+}
